@@ -1,0 +1,1 @@
+NAMES=['filip','kuba','iwonka','telefon','komputer','monitor']
