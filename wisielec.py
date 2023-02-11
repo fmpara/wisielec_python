@@ -39,7 +39,9 @@ while True:
         print("Musisz podać tylko jedną literę!")
     if str.isnumeric(letter):
         print("Nie można podawać cyfry!!")
-    
+    for letter_i in used_letters:
+        if letter_i == letter:
+            print("Ta litera została już wykorzystana!")
     else:
         used_letters.append(letter)   
         found_indexes = find_indexes(word,letter)
